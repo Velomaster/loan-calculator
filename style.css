@@ -1,0 +1,49 @@
+#loading {
+  display: none;
+}
+
+#results {
+  display: none;
+}
+
+select:focus {
+  outline: none;
+}
+
+.form-control:focus, 
+.btn-outline-info:not(:disabled):not(.disabled).active:focus,
+.btn-outline-info.focus, .btn-outline-info:focus {
+  box-shadow: none;
+  border-color: inherit;
+}
+
+.field-label-input {
+  background-color: #FDFDFD;
+  width: 2.5rem;
+}
+
+.field-label {
+  width: 10rem;
+}
+
+body {
+  color: #170055;
+  background-color: #FDFDFD;
+  background-image: url("https://www.transparenttextures.com/patterns/batthern.png");
+}
+
+.btn {
+  background-color: #CABBE9;
+  color: #170055;
+  height: 3.5rem;
+  font-size: 1.5rem;
+}
+
+img {
+  max-height: 8rem;
+}
+
+h1 {
+  font-family: 'Roboto Mono', monospace;
+  margin: 1rem;
+}
